@@ -1,9 +1,26 @@
 
 // Write your custom style. Feel free to split your code to several files
 body {
-  //color: blue;
+	line-height: 1.7;
 }
 
 .logo-light, .logo-dark {
 	width: 130px;
+}
+
+.media-body p {
+	line-height: 1.4;
+}
+
+.nav-tabs-outline .nav-item {
+    min-width: 150px;
+    padding: 0.25rem 0.5rem;
+}
+
+.nav-tabs-outline .nav-item+.nav-item .nav-link {
+    border-left-width: 1px;
+}
+
+.nav-tabs-outline .nav-link {
+    border-radius: 10rem;
 }
