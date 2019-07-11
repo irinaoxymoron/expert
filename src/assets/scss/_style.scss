@@ -1,7 +1,15 @@
 
 // Write your custom style. Feel free to split your code to several files
 body {
-	line-height: 1.7;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    line-height: 1.2;
+}
+
+h2 {
+	margin-bottom: 2rem;
 }
 
 .logo-light, .logo-dark {
